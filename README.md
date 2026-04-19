@@ -1,2 +1,21 @@
-# Healthtrack
-HealthTrack is a full-stack, real-time healthcare monitoring system designed to track, analyze, and visualize patient health data efficiently. The platform monitors vital parameters such as heart rate and blood pressure, and uses automated risk assessment to identify potential health issues early.
+"""
+# HealthTrack System
+
+## Setup
+pip install -r requirements.txt
+
+## Run Backend
+uvicorn backend.main:app --reload
+
+## Run Dashboard
+python dashboard/app.py
+
+## API Endpoints
+- POST /add-data
+- GET /data
+
+## Features
+- Health monitoring
+- Risk detection
+- Real-time dashboard
+"""
